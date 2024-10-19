@@ -7,7 +7,7 @@ const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState('');
 
-  const API_KEY = '3fbe0d055ddcea5c2b3294c7ced58506'; // Replace with your actual API key
+  const API_KEY = 'a48f383a29037df9a5136405002faa34'; 
 
   const getWeather = async () => {
     try {
@@ -28,7 +28,7 @@ const App = () => {
       <TextInput
         style={styles.input}
         placeholder="Enter city"
-        placeholderTextColor="gray"  // Set the placeholder text color
+        placeholderTextColor="gray"  
         value={city}
         onChangeText={setCity}
       />
